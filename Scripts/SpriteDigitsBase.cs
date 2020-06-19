@@ -149,10 +149,14 @@ namespace radiants.SpriteDigits
 		/// <summary>
 		/// In most cases, you don't need to call this.
 		/// </summary>
-		public void Refresh()
+		public virtual void Refresh()
 		{
 			PrepareRenderers();
 			ApplyNumbers();
+
+			SetMaterialToRenderers(GetMaterialForSprite(CustomMaterial));
+			SetColorToRenderers(this.Color);
+			SetSortToRenderers(SortingLayerID, OrderInLayer);
 		}
 
 
