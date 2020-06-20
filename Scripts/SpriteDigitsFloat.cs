@@ -106,7 +106,7 @@ namespace radiants.SpriteDigits
 			if (Digits == null) return;
 			if (!Digits.CheckNumbersFull()) return;
 
-			//to avoid float accuracy issue, convert to decimal
+			//to avoid float accuracy issue, convert value to decimal
 			if(Value > (double)decimal.MaxValue)
 			{
 				Debug.LogWarning("Value is bigger than decimal.MaxValue. SpriteDigits cannot display it.");
