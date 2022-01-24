@@ -1,10 +1,13 @@
 {
     "name": "SpriteDigitsEditor",
+    "rootNamespace": "",
     "references": [
         "GUID:950eb604f81399f42adcdd6ae04161c4",
         "GUID:560b04d1a97f54a4e82edc0cbbb69285"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
