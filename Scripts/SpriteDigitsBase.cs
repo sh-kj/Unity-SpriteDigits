@@ -319,17 +319,8 @@ namespace radiants.SpriteDigits
 		protected static Material GetMaterialForSprite(Material mat)
 		{
 			if (mat == null)
-				return GetUnityDefaultSpriteMaterial();
+				return DefaultSpriteMaterialUtil.DefaultSpriteMaterial;
 			return mat;
-		}
-
-		private static Material GetUnityDefaultSpriteMaterial()
-		{
-#if UNITY_EDITOR
-			return UnityEditor.AssetDatabase.GetBuiltinExtraResource<Material>("Sprites-Default.mat");
-#else
-			return Resources.GetBuiltinResource<Material>("Sprites-Default.mat");
-#endif
 		}
 
 		#endregion
