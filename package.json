@@ -1,7 +1,7 @@
 {
 	"name": "com.radiants.spritedigits",
 	"displayName": "SpriteDigits",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"unity": "2018.4",
 	"description": "Number Display System Using 0 to 9 Sprites.",
 	"license": "MIT",
