@@ -6,6 +6,6 @@
 	"description": "Number Display System Using 0 to 9 Sprites.",
 	"license": "MIT",
 	"dependencies": {
-		"com.neuecc.unirx": "7.1.0"
+		"com.neuecc.unirx": "https://github.com/neuecc/UniRx.git?path=Assets/Plugins/UniRx/Scripts"
 	}
 }
